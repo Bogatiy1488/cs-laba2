@@ -10,5 +10,6 @@ int main()
         cout<< a - b<<endl;
         cout<< a * b<<endl;
         cout<< a * b;
+        cout<< a / b;
 system("pause")
 }
