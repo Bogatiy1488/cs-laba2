@@ -8,5 +8,6 @@ int main()
 	cin >> a >> b;
         cout<< a + b; 
         cout<< a - b;
+        cout<< a * b;
 system("pause")
 }
