@@ -1,15 +1,18 @@
 #include <iostream>
-sing namespace std;
+
+using namespace std;
 
 int main()
 {
-	float a, b;
-	cout << "Vvedite chisla A i B"<<endl;
-	cin >> a >> b;
-        cout<< a + b<<endl; 
-        cout<< a - b<<endl;
-        cout<< a * b<<endl;
-        cout<< a * b;
-        cout<< a / b;
-system("pause")
+    cout << "Enter A and B:\n";
+    int a,b;
+    cin>>a>>b;
+cout << "A + B = " << a + b << '\n'
+     << "A - B = " << a - b << '\n'
+     << "A * B = " << a * b << '\n'
+     << "A / B = " << a / b << '\n';
+     if (a>b)
+         cout<<"MAX="<<a;
+         else
+            cout<<"MAX+"<<b;
 }
